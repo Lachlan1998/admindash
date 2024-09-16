@@ -6,9 +6,215 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
+
+    <div class="sidebar">
+        <div class="dashboard">
+            <img src="./view-dashboard.svg" width="50" height="50">
+            <h1>Dashboard</h1>
+        </div>
+        <div class="words">
+            <div>
+                <img src="./home-account.svg" width="25" height="25">
+                <h2>Home</h2>
+            </div>
+            <div>
+                <img src="./face-man-profile.svg" width="25" height="25">
+                <h2>Profile</h2>
+            </div>
+            <div>
+                <img src="./message-badge-outline.svg" width="25" height="25">
+                <h2>Messages</h2>
+            </div>
+            <div>
+                <img src="./history.svg" width="25" height="25">
+                <h2>History</h2>
+            </div>
+            <div>
+                <img src="./calendar-check.svg" width="25" height="25">
+                <h2>Tasks</h2>
+            </div>
+            <div>
+                <img src="./account-group.svg" width="25" height="25">
+                <h2>Communities</h2>
+            </div>
+        </div>
+        <div class="wordstwo">
+            <div>
+                <img src="./cog.svg" width="25" height="25">
+                <h2>Settings</h2>
+            </div>
+            <div>
+                <img src="./help-box-multiple-outline.svg" width="25" height="25">
+                <h2>Support</h2>
+            </div>
+            <div>
+                <img src="./shield.svg" width="25" height="25">
+                <h2>Privacy</h2>
+            </div>
+        </div>
+    </div>
+    <div class="header">
+        <div class="top">
+            <div>
+                <div class="search">
+                    <img src="./search-web.svg" width="30" height="30">
+                    <form class="search-bar" action="/search" method="GET">
+                        <input type="text" placeholder="Search" name="query" class="search-input">
+                    </form>
+                </div>
+                <div class="account">
+                    <img src="./bell-badge.svg" width="30" height="30">
+                    <img style="border-radius:50%" src="./cgsfsqrfjpn81.jpg" width="30" height="30">
+                    <h2>Lachlan Morris</h1>
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+
+            <div style="display:flex" id="left">
+                <img style="border-radius:50%" src="./cgsfsqrfjpn81.jpg" width="80" height="80">
+                <div>
+                    <p style="font-weight:bold">Hi there,</p>
+                    <h3>Sekushusai! (@shekushusai)</h3>
+                </div>
+            </div>
+            <div id="buttons">
+                <button>New</button>
+                <button>Upload</button>
+                <button>Share</button>
+            </div>
+
+        </div>
+    </div>
+    <div class="main">
+        <div class="container">
+            <div class="block">
+                <h3>Your Projects</h3>
+                <div>
+                    <div class="card">
+                        <div class="strip"></div>
+                        <div class="content">
+                            <h4>Mencius</h4>
+                            <p>"The great man is he who does not lose his child’s heart."</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="strip"></div>
+                        <div class="content">
+                            <h4>Mencius</h4>
+                            <p>"To be benevolent is to do what is right for others."</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="strip"></div>
+                        <div class="content">
+                            <h4>Mencius</h4>
+                            <p>"He who loves others is constantly loved by them."</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="strip"></div>
+                        <div class="content">
+                            <h4>Epictetus</h4>
+                            <p>"It’s not what happens to you, but how you react to it that matters."
+
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="strip"></div>
+                        <div class="content">
+                            <h4>Epictetus</h4>
+                            <p>"No man is free who is not master of himself."</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="strip"></div>
+
+                        <div class="content">
+                            <h4>Epictetus</h4>
+                            <p>Wealth consists not in having great possessions, but in having few wants."</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="announcements">
+                <h3>Announcements</h3>
+                <div id="announcement">
+                    <div class="acontainer">
+                        <div>
+                            <h3>Epictetus</h4>
+                                <p>Epictetus was a Stoic philosopher emphasizing inner control, personal mastery, and
+                                    finding
+                                    contentment through managing desires and reactions.
+                                </p>
+                        </div>
+                        <hr class="line">
+                        <div>
+                            <h3>Mencius</h4>
+                                <p>Mencius was a Confucian philosopher advocating for innate human goodness,
+                                    benevolence,
+                                    and
+                                    the importance of nurturing moral virtues</p>
+                        </div>
+                        <hr class="line">
+                        <div>
+                            <h3>Marcus Aurelius</h4>
+                                <p>Marcus Aurelius was a Stoic emperor who emphasized inner strength, resilience, and
+                                    mindfulness, advocating for living in accordance with nature and reason.
+                                </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="trending">
+                <h3>Trending</h3>
+
+                <div id="trending">
+                    <div>
+                        <img src="./kojiro.jpeg">
+                        <p>
+                            <span class="mention">@Kojiro</span> <br>
+                            <span class="message">uahhhhh.</span>
+                        </p>
+
+                    </div>
+                    <div>
+                        <img src="./itto.jpg">
+                        <p>
+                            <span class="mention">@Itto</span> <br>
+                            <span class="message">Become me.</span>
+                        </p>
+                    </div>
+                    <div>
+                        <img src="./matahachi.jpg">
+                        <p>
+                            <span class="mention">@Matahachi</span> <br>
+                            <span class="message">Man I am a terrible person</span>
+                        </p>
+
+                    </div>
+                    <div>
+                        <img src="./musashi.png">
+                        <p>
+                            <span class="mention">@Musashi</span> <br>
+                            <span class="message">Just dominated 60 men</span>
+                        </p>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
 
     <script src="./script.js"></script>
 </body>
